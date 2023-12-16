@@ -6,4 +6,4 @@ class Car(Servicable):
         self.battery = battery
     
     def needs_service(self) -> bool:
-        return self.engine.needs_service() or self.battery.needs_service()
+        return self.engine.needsService() or self.battery.needsService()
